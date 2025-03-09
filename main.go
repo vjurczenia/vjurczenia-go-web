@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log/slog"
 	"net/http"
 	"os"
@@ -28,6 +27,11 @@ func keepAwakeOnRender() {
 }
 
 func main() {
+	logger := slog.New(slog.NewTextHandler(os.Stdout, &slog.HandlerOptions{
+		Level: slog.LevelInfo,
+	}))
+	slog.SetDefault(logger)
+
 	if _, err := os.Stat(".env"); err == nil {
 		if err := godotenv.Load(); err != nil {
 			slog.Error("Error loading .env file", "error", err)
@@ -44,7 +48,7 @@ func main() {
 	go keepAwakeOnRender()
 
 	port := "8080"
-	fmt.Println("Starting go-web-vjurczenia server on port", port)
+	slog.Info("Starting server", "port", port)
 	if err := http.ListenAndServe(":"+port, nil); err != nil {
 		slog.Error("Server failed to start", "error", err)
 		os.Exit(1)
