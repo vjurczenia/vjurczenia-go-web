@@ -29,8 +29,8 @@ github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UV
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKsk=
 github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
-github.com/vjurczenia/actorfreq v0.2.1 h1:N1OVnr6AyVDAc6YdDWcX4hb+7Js1OdyDWwL3qhM4+rQ=
-github.com/vjurczenia/actorfreq v0.2.1/go.mod h1:z0jZY2D1fGX3HA8SVS/FOyGcDOKZkDvJDq6w3oKzUcg=
+github.com/vjurczenia/actorfreq v0.3.0 h1:xYpR82GHJqr8IiqxoXqxrm/3ZHSXmZVcH3KcrkLqBGo=
+github.com/vjurczenia/actorfreq v0.3.0/go.mod h1:z0jZY2D1fGX3HA8SVS/FOyGcDOKZkDvJDq6w3oKzUcg=
 github.com/vjurczenia/mblg v0.1.1 h1:OydwzzfisfTqZsrjyT5f+7/59S55Zb8BZ7H7CjpD8Co=
 github.com/vjurczenia/mblg v0.1.1/go.mod h1:Egpe7EhRUUNer362AMqtahFlbio3xTmOu6VOSrVRSGo=
 github.com/yuin/goldmark v1.4.13/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
