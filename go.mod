@@ -6,7 +6,7 @@ toolchain go1.23.7
 
 require (
 	github.com/joho/godotenv v1.5.1
-	github.com/vjurczenia/actorfreq v0.3.5
+	github.com/vjurczenia/actorfreq v0.4.0
 	github.com/vjurczenia/mblg v0.1.1
 )
 
