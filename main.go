@@ -7,7 +7,6 @@ import (
 	"time"
 
 	"github.com/joho/godotenv"
-	"github.com/vjurczenia/actorfreq/actorfreq"
 	"github.com/vjurczenia/mblg/mblg"
 )
 
@@ -37,9 +36,6 @@ func main() {
 			slog.Error("Error loading .env file", "error", err)
 		}
 	}
-
-	actorfreq.SetUpDB()
-	actorfreq.AddHandlers("/actorfreq/")
 
 	mblg.AddHandlers("/mblg/")
 
